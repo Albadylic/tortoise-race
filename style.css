@@ -1,0 +1,46 @@
+.race-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 65vw;
+  height: 35vh;
+  margin: 1em;
+  border: 0.6em solid black;
+  border-radius: 5%;
+  background-color: lightgreen;
+}
+
+.tortoise {
+  width: 5vw;
+  height: 5vh;
+  border: 0.25em dashed darkgreen;
+  background-color: darkolivegreen;
+  border-radius: 35%;
+}
+
+.tortoise-number {
+  margin: 0.2em 0.85em;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.race-controls {
+  display: flex;
+  justify-content: space-evenly;
+  width: 65vw;
+  margin: 1em;
+}
+
+.button {
+  background-color: darkolivegreen;
+  color: whitesmoke;
+  font-size: 2rem;
+  border: 0.2em solid darkgreen;
+  border-radius: 10%;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+  color: darkolivegreen;
+  cursor: pointer;
+}
